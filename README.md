@@ -96,7 +96,8 @@ VCell-GSoC/
 ```bash
 cd backend
 poetry install --no-root
-poetry run uvicorn app.main:app --reload
+poetry run uvicorn app.main:app --port 8000
+# poetry run uvicorn app.main:app --reload
 ```
 
 #### Frontend Setup
